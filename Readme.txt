@@ -83,6 +83,11 @@ Changes: cpu --> qpu, 8 --> 16 , bell_cpu --> bell_qpu
 *) retrieve:
 ./retrieve_awsQuEra_job.py --expName   bell_qpu
 
+ 'job_qa': {'endedAt': '2023-06-08 16:09:18.256000+00:00',
+            'exec_date': '20230608_090918_PDT',
+            'status': 'COMPLETED',
+            'success': True},
+
 *) Analysis, as before
 ./ana_BellState.py  --expName   bell_qpu 
 cl= 0 {'gg': 16, 'gr': 9, 'rg': 3, 'rr': 22, 'e': 0}
