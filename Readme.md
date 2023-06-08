@@ -4,8 +4,6 @@ The Python/Braket pipeline is designed to seamlessly interact with AWS to submit
 
 One of the core advantages of this pipeline is the decoupling of post-processing and plotting from the AWS interaction. Users only need to read a local HDF5 file to perform post-processing tasks. Additionally, multiple jobs can be submitted using a convenient bash script (batchJob_aws.sh). The results from these multiple jobs can be effortlessly combined by utilizing post-processing techniques on Numpy arrays stored in HDF5 (pl_summaryBellState.py).
 
-This Python/Braket pipeline provides a streamlined and efficient workflow for submitting, retrieving, and analyzing QuEra jobs on AWS. The seamless integration with HDF5 files and the flexibility in managing job information make it a powerful tool for quantum computing analysis.
-
 See Readme.txt for an example sequence of commands. The dataQuEra_2023june.tgz contains all outputs.
 
 
